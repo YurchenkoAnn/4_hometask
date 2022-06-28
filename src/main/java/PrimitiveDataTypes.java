@@ -54,7 +54,7 @@ public class PrimitiveDataTypes {
         if
         (edge <= 0) {
             System.out.println("Это круг ");
-        } else if (edge >= 3) {
+        } else if (edge == 3) {
             System.out.println("Это Треугольник");
         } else {
             System.out.println("Это другая фигура");
